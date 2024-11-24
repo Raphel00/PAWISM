@@ -1,0 +1,65 @@
+
+.header {
+    background-color: #ffcbcb;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .header .logo h1 {
+    font-size: 3rem;
+    color: #ff6f61;
+    margin: 0;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 2s ease-out;
+  }
+  
+  .header .logo p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+    font-weight: 300;
+    animation: fadeIn 2s ease-out 1s;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #ff6f61;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff9f9f;
+    color: #fff;
+  }
+ 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
